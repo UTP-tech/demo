@@ -637,6 +637,23 @@ ol {
 	font-size: 16px;
 	color: #121212;
 }
+.hero-social-links1 {
+	position: absolute;
+	width: 60px;
+	bottom: 0;
+	right: 0;
+	z-index: 9;
+	background: #fff;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.hero-social-links1 a {
+	display: block;
+	padding: 1px 0;
+	font-size: 16px;
+	color: #121212;
+}
 
 /* ----------------
   Intro section
@@ -725,6 +742,7 @@ ol {
 ---------------------*/
 
 .footer-section {
+	position: relative;
 	background: #212121;
 	padding: 19px 40px;
 }
